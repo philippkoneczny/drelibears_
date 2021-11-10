@@ -1,0 +1,61 @@
+.article-warenkorb {
+     width: 80vw;
+     height: 15vw;
+     grid-template-columns: 15vw 35vw 10vw;
+     display: grid;
+     margin-top: 5vw;
+}
+.warenkorbgrid {
+     grid-template-columns: 15vw 35vw 10vw;
+     display: grid;
+}
+.card-image {
+     object-fit: cover;
+     width: 100%;
+     height: 15vw;
+     -webkit-flex-direction: column-reverse;
+     flex-direction: column-reverse;
+     display: -webkit-flex;
+     display: flex;
+     background-size: 15vw;
+}
+.firstcola {
+     grid-column: 1 / span 1;
+}
+.wrapperw {
+     grid-template-columns: repeat(5, 1fr);
+     display: grid;
+}
+.contentw {
+     grid-column: 2 / span 3;
+}
+.secondcola {
+     grid-column: 2 / span 1;
+     text-align: center;
+}
+.thirdcola {
+     grid-column: 3 / span 1;
+}
+.margin {
+     margin-top: 6vw;
+}
+.detailgrid {
+     grid-template-columns: 50% 25% 25%;
+     display: grid;
+}
+.description {
+     border-bottom: 1px solid grey;
+     margin-top: 7.5vw;
+}
+.descriptgrid {
+     grid-template-columns: 15vw 35vw 10vw;
+     display: grid;
+}
+.beautifulwarenkorb {
+     font-size: 2.5vw;
+     font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}

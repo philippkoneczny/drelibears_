@@ -1,0 +1,94 @@
+.wrap {
+     display: grid;
+     grid-template-rows: 1fr;
+     grid-template-columns: auto auto;
+     background-color: #b7b4b2;
+     height: auto;
+     padding: 2rem;
+}
+
+.imgdreli {
+     width: 100%;
+}
+
+.welcome {
+     margin: 5vh;
+     grid-column: 2 / span 6;
+     font-size: 8vw;
+
+     font-family: fave-script-pro, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}
+.intro-content {
+     grid-column: 1 / span 4;
+     background-color: #b7b4b2;
+     height: auto;
+}
+.bild {
+     width: 50%;
+     max-width: 100%;
+     display: block;
+     float: left;
+     margin-right: 20px;
+     margin-bottom: 20px;
+}
+.megrid {
+     grid-template-columns: repeat(5, 1fr);
+     display: grid;
+}
+.me {
+     grid-column: 2 / span 3;
+}
+.beautyme {
+     font-size: 1.5vw;
+     font-family: interstate, sans-serif;
+     text-align: justify;
+     font-weight: 300;
+     line-height: 1.5;
+     margin-top: 0px;
+     font-style: normal;
+}
+@media (max-width: 576px) {
+     .wrap {
+          grid-template-columns: 1fr;
+          grid-template-rows: 1fr auto;
+     }
+     .bild {
+          width: 100%;
+     }
+}
+@media (min-width: 768px) {
+     .wrap {
+          grid-template-columns: repeat(5, 1fr);
+     }
+     .intro-content {
+          grid-column: 2 / span 3;
+     }
+}
+@media (min-width: 992px) {
+     .wrap {
+          display: grid;
+          grid-template-rows: auto 1fr 23vw;
+          grid-template-columns: repeat(8, 1fr);
+          background-color: #b7b4b2;
+          height: auto;
+          padding: 2rem;
+     }
+     .intro-content {
+          grid-column: 3 / span 4;
+     }
+     .bild {
+          width: 60%;
+     }
+}
+@media (min-width: 1400px) {
+     .intro-content {
+          grid-column: 3 / span 5;
+     }
+     .bild {
+          width: 40%;
+     }
+}

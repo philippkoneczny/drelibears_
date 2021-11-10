@@ -1,0 +1,193 @@
+.grid {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+}
+.extras {
+     grid-column: 2 / span 3;
+     width: 100%;
+}
+.prodwrapper {
+     display: grid;
+     grid-column: 2 / span 3;
+     grid-template-columns: repeat(2, 1fr) 2vw repeat(2, 1fr);
+}
+.headlineprod {
+     font-family: fave-script-pro, sans-serif;
+
+     font-weight: 400;
+     font-size: 4vw;
+     font-style: normal;
+     align-self: center;
+     grid-column: 2 / span 3;
+}
+.btn-warenkorb {
+     width: 100%;
+     margin-top: 20px;
+     height: 8vh;
+
+     border-radius: 3px;
+     border-width: 1px;
+     padding-top: 2vh;
+     padding-bottom: 2vh;
+     background-color: #efefef;
+     border-color: rgb(133, 133, 133);
+     border-style: outset;
+     border-image: initial;
+     text-align: center;
+
+     font-size: 3vh;
+
+     font-family: amatic-sc, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+}
+.hiddenspace {
+     max-height: 0px;
+     overflow: hidden;
+     transition: 1s ease max-height;
+}
+.innertext {
+     font-family: amatic-sc, sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 3vh;
+}
+.expander {
+     max-height: 12vh;
+}
+.btn-warenkorb:hover {
+     background-color: #aaa9a9;
+     color: #ffffff;
+}
+.picture {
+     grid-column: 1 / span 2;
+     width: 100%;
+}
+.space {
+     margin-top: 1vh;
+}
+.space2 {
+     margin-top: 3vh;
+}
+
+.beauty {
+     font-size: 2.5vw;
+     font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}
+.beautyklein {
+     font-size: 1vw;
+     font-family: interstate, sans-serif;
+     text-align: justify;
+     font-weight: 300;
+}
+.sidetext {
+     grid-column: 4 / span 2;
+     grid-template-rows: auto auto;
+     display: grid;
+     font-size: 1.5vw;
+     font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}
+.warenkorb {
+     font-family: amatic-sc, sans-serif;
+     margin-top: 3vh;
+     margin-bottom: 3vh;
+     padding-top: 1.5vh;
+     padding-bottom: 1.5vh;
+     font-weight: 400;
+     font-size: 1.5vw;
+     font-style: normal;
+}
+.row1 {
+     grid-row: 1;
+     background-color: #b7b4b2;
+     margin-bottom: 3vh;
+     padding: 2vh;
+}
+.row2 {
+     grid-row: 2;
+     background-color: #b7b4b2;
+     padding: 2vh;
+}
+h5 {
+     margin-top: 0px;
+     margin-bottom: 10px;
+}
+.preisfarbe {
+     width: 100%;
+     margin-top: 20px;
+     background-color: rgb(239, 239, 239);
+     border-color: rgb(133, 133, 133);
+     border-radius: 3px;
+     border-width: 1px;
+     text-align: center;
+     height: 4vh;
+     padding-top: 2vh;
+     padding-bottom: 2vh;
+     font-size: 2vh;
+     border-style: outset;
+     border-image: initial;
+}
+.preisd {
+     width: 100%;
+     margin-top: 20px;
+     background-color: rgb(239, 239, 239);
+     border-color: rgb(133, 133, 133);
+     border-radius: 3px;
+     border-width: 1px;
+     text-align: center;
+     font-size: 2vw;
+     padding-top: 2vh;
+     padding-bottom: 0vh;
+     border-style: outset;
+     border-image: initial;
+}
+
+@media (max-width: 992px) {
+     .btn-warenkorb {
+          font-size: 3vw;
+          margin-top: 1vh;
+          margin-bottom: 1vh;
+          padding-top: 0.5vh;
+          padding-bottom: 0.5vh;
+     }
+
+     .preisfarbe {
+          font-size: 3vh;
+          margin-top: 1vh;
+          margin-bottom: 1vh;
+          padding-top: 0.5vh;
+          padding-bottom: 0.5vh;
+          height: 2vh;
+     }
+     .preisd {
+          font-size: 3vw;
+          margin-top: 1vh;
+          margin-bottom: 1vh;
+          padding-top: 0.5vh;
+          padding-bottom: 0.5vh;
+     }
+
+     .warenkorb {
+          margin-top: 1vh;
+          margin-bottom: 1vh;
+          padding-top: 0.5vh;
+          padding-bottom: 0.5vh;
+     }
+
+     .ordersize {
+          font-size: 3vw;
+     }
+     .btn-größe {
+          font-size: 3vw;
+          padding-top: 0.5vh;
+          padding-bottom: 0.5vh;
+     }
+}

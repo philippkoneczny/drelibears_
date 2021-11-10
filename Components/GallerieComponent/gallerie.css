@@ -1,0 +1,217 @@
+#section-2 h2 {
+     text-align: center;
+     margin-top: 10px;
+     margin-bottom: 2px;
+}
+
+#userstories {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+}
+.story {
+     padding: 10px;
+     text-align: justify;
+}
+#userstories article {
+     align-items: center;
+
+     border-radius: 1rem;
+}
+.welcomee {
+     margin: 2vh;
+     grid-column: 1 / span 3;
+     font-size: 5vw;
+
+     font-family: fave-script-pro, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}
+.preis {
+     text-align: center;
+
+     font-family: montserrat-alternates, sans-serif;
+     font-weight: 200;
+     font-size: 1.5vw;
+}
+
+.beautiful {
+     font-size: 2vw;
+     background-color: #ffffff;
+
+     font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+     text-decoration-line: none !important;
+     font-style: normal;
+     width: 15vw;
+     position: relative;
+     margin: 0vw;
+     right: -2vw;
+     padding-bottom: 5px;
+     color: black;
+     text-align: center;
+     padding-top: 11px;
+}
+.noline {
+     text-decoration-line: none;
+}
+.wrapper {
+     grid-column: 2 / span 3;
+     grid-template-rows: 7vw auto auto auto;
+     grid-template-columns: 1fr 1fr 1fr;
+     align-items: center;
+     display: grid;
+     grid-gap: 20px;
+}
+.card-img {
+     object-fit: cover;
+     width: 100%;
+     height: 20vw;
+     flex-direction: column-reverse;
+     display: flex;
+     background-size: 20vw;
+}
+@media (max-width: 576px) {
+     .preis {
+          font-size: 1.5vw;
+          bottom: 7.5vw;
+     }
+     .beautiful {
+          font-size: 80%;
+          background-color: #ffffff;
+
+          font-family: amatic-sc, sans-serif;
+
+          font-weight: 400;
+
+          font-style: normal;
+          width: 50%;
+          position: relative;
+
+          right: -25%;
+          padding-bottom: 7px;
+          color: black;
+          text-align: center;
+          padding-top: 7%;
+     }
+}
+@media (min-width: 576px) {
+     .preis {
+          font-size: 1.5vw;
+          bottom: 7vw;
+     }
+     .beautiful {
+          font-size: 110%;
+          background-color: #ffffff;
+
+          font-family: amatic-sc, sans-serif;
+
+          font-weight: 400;
+
+          font-style: normal;
+          width: 50%;
+          position: relative;
+
+          right: -25%;
+
+          color: black;
+          text-align: center;
+          padding-top: 7%;
+     }
+}
+
+@media (max-width: 830px) {
+     .wrapper {
+          grid-template-columns: 1fr;
+          grid-column: 2 / span 3;
+          display: inline;
+     }
+     .card-img {
+          object-fit: cover;
+          width: 100%;
+          height: 60vw;
+          flex-direction: column-reverse;
+          display: flex;
+          background-size: 60vw;
+     }
+     .article {
+          margin-bottom: 6vw;
+     }
+}
+@media (min-width: 750px) {
+     .beautiful {
+          font-size: 140%;
+
+          padding-bottom: 10px;
+     }
+}
+@media (min-width: 992px) {
+     .preis {
+          font-size: 1.5vw;
+          bottom: 7.5vw;
+     }
+     .wrapper {
+          grid-column: 2 / span 3;
+          grid-template-columns: repeat(3, 1fr);
+          width: 100%;
+     }
+     .article {
+          height: 25vw;
+     }
+     .beautiful {
+          font-size: 160%;
+          background-color: #ffffff;
+
+          font-family: amatic-sc, sans-serif;
+
+          font-weight: 400;
+
+          font-style: normal;
+          width: 50%;
+          position: relative;
+
+          right: -25%;
+          padding-bottom: 5px;
+          color: black;
+          text-align: center;
+          padding-top: 7%;
+          padding-bottom: 15px;
+     }
+}
+
+@media (min-width: 1200px) {
+     .preis {
+          font-size: 1.5vw;
+          bottom: 6vw;
+     }
+
+     .beautiful {
+          font-size: 165%;
+          background-color: #ffffff;
+
+          font-family: amatic-sc, sans-serif;
+
+          font-weight: 400;
+
+          font-style: normal;
+          width: 50%;
+          position: relative;
+
+          right: -25%;
+          padding-bottom: 20px;
+          color: black;
+          text-align: center;
+          padding-top: 7%;
+     }
+}
+@media (min-width: 1500px) {
+     .beautiful {
+          font-size: 195%;
+     }
+     .preis {
+          font-size: 1.5vw;
+          bottom: 5vw;
+     }
+}

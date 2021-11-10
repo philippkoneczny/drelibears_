@@ -1,0 +1,119 @@
+.invisible {
+     display: none;
+}
+.black {
+     color: black;
+     width: 100%;
+}
+.dropdownparentcolor {
+     max-height: 0px;
+     overflow: hidden;
+     transition: 1s ease max-height;
+     border: 1px solid red;
+     width: 10vw;
+}
+.preisfarbe {
+     width: 100%;
+     margin-top: 20px;
+     background-color: rgb(239, 239, 239);
+     border-color: rgb(133, 133, 133);
+     border-radius: 3px;
+     border-width: 1px;
+     text-align: center;
+     padding-top: 2vh;
+     height: 3vh;
+     font-size: 3vh;
+     border-style: outset;
+     border-image: initial;
+}
+.btn-größe {
+     width: 100%;
+     margin-top: 20px;
+     background-color: rgb(239, 239, 239);
+     border-color: rgb(133, 133, 133);
+     border-radius: 3px;
+     border-width: 1px;
+     text-align: center;
+     font-size: 2vw;
+     padding-top: 1.5vh;
+     padding-bottom: 1.5vh;
+     border-style: outset;
+     border-image: initial;
+     font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}
+.btn-größe:hover {
+     background-color: #aaa9a9;
+     color: #ffffff;
+}
+.beauty {
+     font-size: 2.5vw;
+     font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}
+@media (max-width: 992px) {
+     .preisfarbe {
+          font-size: 3vw;
+          margin-top: 1vh;
+          margin-bottom: 1vh;
+          padding-top: 0.5vh;
+          padding-bottom: 0.5vh;
+     }
+}
+.expand {
+     max-height: 100%;
+}
+
+.dropdownorder {
+     align-items: center;
+}
+.btn-größe {
+     width: 100%;
+     margin-top: 20px;
+     background-color: rgb(239, 239, 239);
+}
+
+.ordersize {
+     margin-top: 20px;
+}
+.dropdownelement:hover {
+     background-color: #b7b4b2;
+     color: #ffffff;
+}
+
+.dropdownelement {
+     text-decoration-line: none;
+     width: 100%;
+     color: #b7b4b2;
+     background-color: #ffffff;
+     font-size: x-large;
+     cursor: grabbing;
+}
+.dropdown-menu {
+     position: absolute;
+     background-color: #ffffff !important;
+
+     width: 27%;
+     text-align: left !important;
+     font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}
+@media (max-width: 992px) {
+     .ordersize {
+          font-size: 3vw;
+     }
+     .btn-größe {
+          font-size: 3vw;
+          padding-top: 0.5vh;
+          padding-bottom: 0.5vh;
+     }
+}

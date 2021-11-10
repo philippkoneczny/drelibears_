@@ -1,0 +1,74 @@
+.intro {
+     display: grid;
+
+     grid-template-rows: auto 1fr 13vw;
+     grid-template-columns: repeat(8, 1fr);
+     background-color: #b7b4b2;
+     height: auto;
+     padding: 2rem;
+}
+
+.imgdreli {
+     width: 100%;
+}
+.fliestext {
+     grid-template-columns: repeat(5, 1fr);
+     display: grid;
+}
+.text {
+     grid-column: 2 / span 3;
+     font-family: interstate, sans-serif;
+
+     font-weight: 300;
+
+     font-style: normal;
+
+     margin-top: 40px;
+     margin-bottom: 40px;
+     line-height: 0.7;
+     font-size: 1.5vw;
+     font-style: normal;
+     text-align: center;
+}
+.placeholder {
+     height: 10vh;
+     background-color: #b7b4b2;
+}
+.welcome {
+     margin: 5vh;
+
+     font-size: 8vw;
+     grid-column: 2 / span 6;
+     font-family: fave-script-pro, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}
+.intro-content {
+     grid-column: 1 / span 4;
+     background-color: #b7b4b2;
+     height: auto;
+}
+.bild {
+     width: 50%;
+     max-width: 100%;
+     display: block;
+     float: left;
+     margin-right: 20px;
+     margin-bottom: 20px;
+}
+
+@media (min-width: 992px) {
+     .intro {
+          background-color: #b7b4b2;
+          height: auto;
+          padding: 2rem;
+     }
+     .intro-content {
+          grid-column: 3 / span 4;
+     }
+     .bild {
+          width: 60%;
+     }
+}

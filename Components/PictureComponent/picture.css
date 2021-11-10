@@ -1,0 +1,23 @@
+.gridpic {
+     width: 100%;
+     display: grid;
+     grid-template-rows: auto 10vh;
+     grid-template-columns: 100%;
+}
+.big {
+     grid-row: 1;
+     width: 100%;
+}
+.small {
+     grid-row: 2;
+}
+.smallpic {
+     margin-left: 1vw;
+     height: 100%;
+}
+.liste {
+     height: 100%;
+}
+.bigone {
+     width: 100%;
+}
